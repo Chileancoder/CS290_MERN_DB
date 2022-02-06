@@ -1,0 +1,84 @@
+
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:rgb(54, 143, 216);
+  font-size: 100%;
+  color: white;
+  margin: 0 auto;
+  padding: 3%;
+  
+}
+
+link {
+  color:white
+}
+
+table{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  background-color:rgb(54, 143, 216);
+  color: white;
+  margin: 0 auto;
+  padding: 3%;
+  
+}
+
+caption{
+  color:white;
+}
+
+tr, th {
+  border: double;
+  border-color: black;
+  height: 3%;
+  width: 3%;
+  color:white;
+}
+
+td{
+  font-size: 80%;
+  border: double;
+  border-color: black;
+  height: 3%;
+  width: 3%;
+  color:white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:rgb(54, 143, 216);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
